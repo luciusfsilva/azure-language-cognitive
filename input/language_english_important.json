@@ -1,0 +1,112 @@
+{
+    "documents": [
+        {
+            "id": "id__1113",
+            "sentiment": "positive",
+            "confidenceScores": {
+                "positive": 0.79,
+                "neutral": 0.2,
+                "negative": 0.01
+            },
+            "sentences": [
+                {
+                    "sentiment": "neutral",
+                    "confidenceScores": {
+                        "positive": 0.17,
+                        "neutral": 0.8,
+                        "negative": 0.02
+                    },
+                    "offset": 0,
+                    "length": 63,
+                    "text": "The English language plays a very important role in our lives. ",
+                    "targets": [],
+                    "assessments": []
+                },
+                {
+                    "sentiment": "neutral",
+                    "confidenceScores": {
+                        "positive": 0.23,
+                        "neutral": 0.75,
+                        "negative": 0.02
+                    },
+                    "offset": 63,
+                    "length": 128,
+                    "text": "As a result of globalisation and with the help of the English language, the entire world has now become familiar to all people. ",
+                    "targets": [],
+                    "assessments": []
+                },
+                {
+                    "sentiment": "neutral",
+                    "confidenceScores": {
+                        "positive": 0.04,
+                        "neutral": 0.95,
+                        "negative": 0.01
+                    },
+                    "offset": 191,
+                    "length": 127,
+                    "text": "It is considered the principal language of communication by many nations, and everyone has accepted it as the global language. ",
+                    "targets": [],
+                    "assessments": []
+                },
+                {
+                    "sentiment": "neutral",
+                    "confidenceScores": {
+                        "positive": 0.04,
+                        "neutral": 0.94,
+                        "negative": 0.02
+                    },
+                    "offset": 318,
+                    "length": 42,
+                    "text": "Do you want to know more about the topic? ",
+                    "targets": [],
+                    "assessments": []
+                },
+                {
+                    "sentiment": "positive",
+                    "confidenceScores": {
+                        "positive": 0.79,
+                        "neutral": 0.2,
+                        "negative": 0.01
+                    },
+                    "offset": 360,
+                    "length": 159,
+                    "text": "Read the article for cues and tips, and prepare a mesmerising speech on the importance of the English language – one of the interesting speech topics for kids.",
+                    "targets": [
+                        {
+                            "sentiment": "positive",
+                            "confidenceScores": {
+                                "positive": 1,
+                                "negative": 0
+                            },
+                            "offset": 422,
+                            "length": 6,
+                            "text": "speech",
+                            "relations": [
+                                {
+                                    "relationType": "assessment",
+                                    "ref": "#/documents/0/sentences/4/assessments/0"
+                                }
+                            ]
+                        }
+                    ],
+                    "assessments": [
+                        {
+                            "sentiment": "positive",
+                            "confidenceScores": {
+                                "positive": 1,
+                                "negative": 0
+                            },
+                            "offset": 410,
+                            "length": 11,
+                            "text": "mesmerising",
+                            "isNegated": false
+                        }
+                    ]
+                }
+            ],
+            "warnings": []
+        }
+    ],
+    "errors": [],
+    "modelVersion": "2022-11-01"
+}
